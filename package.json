@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:pages": "npx @cloudflare/next-on-pages@1",
+    "build:pages": "pnpm exec vercel build && pnpm exec next-on-pages --skip-build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit --project tsconfig.check.json"
