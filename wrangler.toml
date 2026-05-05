@@ -2,3 +2,7 @@ name = "admitaudit-ai"
 compatibility_date = "2026-05-05"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+API_BASE_URL = "https://breakout.wenwen-ai.com/v1/"
+API_MODEL = "claude-sonnet-4-6-20260218"
